@@ -1,0 +1,231 @@
+2025-05-17 12:24:45,350 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 12:24:45,352 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 12:24:45,360 - INFO -  * Restarting with stat
+2025-05-17 12:25:00,433 - WARNING -  * Debugger is active!
+2025-05-17 12:25:00,460 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 12:26:29,628 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 12:26:29,628 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 12:26:29,642 - INFO -  * Restarting with stat
+2025-05-17 12:26:36,172 - WARNING -  * Debugger is active!
+2025-05-17 12:26:36,185 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 12:28:15,134 - INFO - 127.0.0.1 - - [17/May/2025 12:28:15] "GET / HTTP/1.1" 200 -
+2025-05-17 12:28:15,753 - INFO - 127.0.0.1 - - [17/May/2025 12:28:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 12:28:53,014 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 14395001 - ÀÎ°øÁö´ÉÇÁ·Î±×·¡¹Ö
+2025-05-17 12:28:53,018 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 13119002 - ÀÎ°øÁö´É°³·Ð
+2025-05-17 12:28:53,018 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 14207002 - À¥ÇÁ·Î±×·¡¹Ö
+2025-05-17 12:28:53,023 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 03671002 - ¼ÒÇÁÆ®¿þ¾î°øÇÐ
+2025-05-17 12:28:53,027 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 14399001 - Á¦¾î½Ã½ºÅÛº¸¾È
+2025-05-17 12:28:53,030 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 13971001 - ½Ã½ºÅÛº¸¾È
+2025-05-17 12:28:53,034 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 14394001 - Çö´ë¾ÏÈ£ÇÐ
+2025-05-17 12:28:53,593 - INFO - 127.0.0.1 - - [17/May/2025 12:28:53] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 12:28:54,067 - INFO - 127.0.0.1 - - [17/May/2025 12:28:54] "GET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-17 12:28:54,112 - INFO - 127.0.0.1 - - [17/May/2025 12:28:54] "GET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-17 12:28:54,266 - INFO - 127.0.0.1 - - [17/May/2025 12:28:54] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=e9NzDU3837oz1KTfpGlQ HTTP/1.1" 200 -
+2025-05-17 12:28:56,889 - INFO - 127.0.0.1 - - [17/May/2025 12:28:56] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-17 12:32:28,853 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 12:32:28,854 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 12:32:28,861 - INFO -  * Restarting with stat
+2025-05-17 12:32:34,655 - WARNING -  * Debugger is active!
+2025-05-17 12:32:34,659 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 12:32:45,979 - INFO - 127.0.0.1 - - [17/May/2025 12:32:45] "GET / HTTP/1.1" 200 -
+2025-05-17 12:33:01,652 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 14395001 - ÀÎ°øÁö´ÉÇÁ·Î±×·¡¹Ö
+2025-05-17 12:33:01,657 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 13119002 - ÀÎ°øÁö´É°³·Ð
+2025-05-17 12:33:01,659 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 14207002 - À¥ÇÁ·Î±×·¡¹Ö
+2025-05-17 12:33:01,660 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 03671002 - ¼ÒÇÁÆ®¿þ¾î°øÇÐ
+2025-05-17 12:33:01,662 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 14399001 - Á¦¾î½Ã½ºÅÛº¸¾È
+2025-05-17 12:33:01,663 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 13971001 - ½Ã½ºÅÛº¸¾È
+2025-05-17 12:33:01,665 - INFO - °ú¸ñ Ãß°¡ ¼º°ø: 14394001 - Çö´ë¾ÏÈ£ÇÐ
+2025-05-17 12:33:01,735 - WARNING - 'training_data.csv'¿¡ 'score' ÄÃ·³ÀÌ ¾ø¾î AI ¸ðµ¨ ÈÆ·ÃÀ» °Ç³Ê¶Ý´Ï´Ù.
+2025-05-17 12:33:01,823 - INFO - 127.0.0.1 - - [17/May/2025 12:33:01] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 12:33:02,251 - INFO - 127.0.0.1 - - [17/May/2025 12:33:02] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 12:33:02,262 - INFO - 127.0.0.1 - - [17/May/2025 12:33:02] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 12:33:02,320 - INFO - 127.0.0.1 - - [17/May/2025 12:33:02] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=FPKmuI1SfAHWbZuOhgRZ HTTP/1.1" 200 -
+2025-05-17 12:36:59,809 - INFO -  * Detected change in 'C:\\Users\\willi\\OneDrive\\¹ÙÅÁ È­¸é\\À¥¼­¹ö\\timetable.py', reloading
+2025-05-17 12:37:00,814 - INFO -  * Restarting with stat
+2025-05-17 12:37:10,987 - WARNING -  * Debugger is active!
+2025-05-17 12:37:11,008 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 12:37:55,990 - INFO -  * Detected change in 'C:\\Users\\willi\\OneDrive\\¹ÙÅÁ È­¸é\\À¥¼­¹ö\\timetable.py', reloading
+2025-05-17 12:37:56,639 - INFO -  * Restarting with stat
+2025-05-17 12:38:05,411 - WARNING -  * Debugger is active!
+2025-05-17 12:38:05,435 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 12:39:33,251 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 12:39:33,251 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 12:39:33,257 - INFO -  * Restarting with stat
+2025-05-17 12:39:38,611 - WARNING -  * Debugger is active!
+2025-05-17 12:39:38,620 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 12:39:53,027 - INFO - 127.0.0.1 - - [17/May/2025 12:39:53] "GET / HTTP/1.1" 200 -
+2025-05-17 12:40:04,632 - WARNING - 'training_data.csv'¿¡ 'score' ÄÃ·³ÀÌ ¾ø¾î AI ¸ðµ¨ ÈÆ·ÃÀ» °Ç³Ê¶Ý´Ï´Ù.
+2025-05-17 12:40:04,697 - INFO - 127.0.0.1 - - [17/May/2025 12:40:04] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 12:40:05,093 - INFO - 127.0.0.1 - - [17/May/2025 12:40:05] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 12:40:05,104 - INFO - 127.0.0.1 - - [17/May/2025 12:40:05] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 12:40:05,207 - INFO - 127.0.0.1 - - [17/May/2025 12:40:05] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=loG7TGVPyGwQX1mA4gUB HTTP/1.1" 200 -
+2025-05-17 12:44:44,691 - INFO -  * Detected change in 'C:\\Users\\willi\\OneDrive\\¹ÙÅÁ È­¸é\\À¥¼­¹ö\\timetable.py', reloading
+2025-05-17 12:44:45,376 - INFO -  * Restarting with stat
+2025-05-17 12:45:02,565 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 12:45:02,565 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 12:45:02,579 - INFO -  * Restarting with stat
+2025-05-17 12:45:09,721 - WARNING -  * Debugger is active!
+2025-05-17 12:45:09,744 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 12:45:40,212 - INFO - 127.0.0.1 - - [17/May/2025 12:45:40] "GET / HTTP/1.1" 200 -
+2025-05-17 12:45:49,088 - WARNING - 'training_data.csv'¿¡ 'score' ÄÃ·³ÀÌ ¾ø¾î AI ¸ðµ¨ ÈÆ·ÃÀ» °Ç³Ê¶Ý´Ï´Ù.
+2025-05-17 12:45:49,096 - INFO - 127.0.0.1 - - [17/May/2025 12:45:49] "POST /recommend HTTP/1.1" 200 -
+2025-05-17 12:46:56,881 - WARNING - 'training_data.csv'¿¡ 'score' ÄÃ·³ÀÌ ¾ø¾î AI ¸ðµ¨ ÈÆ·ÃÀ» °Ç³Ê¶Ý´Ï´Ù.
+2025-05-17 12:46:56,887 - INFO - 127.0.0.1 - - [17/May/2025 12:46:56] "POST /recommend HTTP/1.1" 200 -
+2025-05-17 12:48:24,250 - INFO - 127.0.0.1 - - [17/May/2025 12:48:24] "GET / HTTP/1.1" 200 -
+2025-05-17 12:48:28,969 - WARNING - 'training_data.csv'¿¡ 'score' ÄÃ·³ÀÌ ¾ø¾î AI ¸ðµ¨ ÈÆ·ÃÀ» °Ç³Ê¶Ý´Ï´Ù.
+2025-05-17 12:48:28,978 - INFO - 127.0.0.1 - - [17/May/2025 12:48:28] "POST /recommend HTTP/1.1" 200 -
+2025-05-17 12:48:36,550 - INFO - 127.0.0.1 - - [17/May/2025 12:48:36] "GET / HTTP/1.1" 200 -
+2025-05-17 12:48:38,720 - WARNING - 'training_data.csv'¿¡ 'score' ÄÃ·³ÀÌ ¾ø¾î AI ¸ðµ¨ ÈÆ·ÃÀ» °Ç³Ê¶Ý´Ï´Ù.
+2025-05-17 12:48:38,733 - INFO - 127.0.0.1 - - [17/May/2025 12:48:38] "POST /recommend HTTP/1.1" 200 -
+2025-05-17 12:48:41,681 - INFO - 127.0.0.1 - - [17/May/2025 12:48:41] "GET / HTTP/1.1" 200 -
+2025-05-17 12:48:43,782 - WARNING - 'training_data.csv'¿¡ 'score' ÄÃ·³ÀÌ ¾ø¾î AI ¸ðµ¨ ÈÆ·ÃÀ» °Ç³Ê¶Ý´Ï´Ù.
+2025-05-17 12:48:43,789 - INFO - 127.0.0.1 - - [17/May/2025 12:48:43] "POST /recommend HTTP/1.1" 200 -
+2025-05-17 12:48:46,263 - INFO - 127.0.0.1 - - [17/May/2025 12:48:46] "GET / HTTP/1.1" 200 -
+2025-05-17 12:59:22,790 - INFO -  * Detected change in 'C:\\Users\\willi\\OneDrive\\¹ÙÅÁ È­¸é\\À¥¼­¹ö\\timetable.py', reloading
+2025-05-17 12:59:23,335 - INFO -  * Restarting with stat
+2025-05-17 13:00:14,256 - WARNING -  * Debugger is active!
+2025-05-17 13:00:14,276 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 13:00:18,233 - WARNING - 'training_data.csv'¿¡ 'score' ÄÃ·³ÀÌ ¾ø¾î AI ¸ðµ¨ ÈÆ·ÃÀ» °Ç³Ê¶Ý´Ï´Ù.
+2025-05-17 13:00:18,248 - INFO - 127.0.0.1 - - [17/May/2025 13:00:18] "POST /recommend HTTP/1.1" 200 -
+2025-05-17 13:00:21,876 - INFO - 127.0.0.1 - - [17/May/2025 13:00:21] "GET / HTTP/1.1" 200 -
+2025-05-17 13:00:42,878 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 13:00:42,878 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 13:00:42,888 - INFO -  * Restarting with stat
+2025-05-17 13:00:48,875 - WARNING -  * Debugger is active!
+2025-05-17 13:00:48,888 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 13:00:52,737 - INFO - 127.0.0.1 - - [17/May/2025 13:00:52] "GET / HTTP/1.1" 200 -
+2025-05-17 13:00:55,245 - WARNING - 'training_data.csv'¿¡ 'score' ÄÃ·³ÀÌ ¾ø¾î AI ¸ðµ¨ ÈÆ·ÃÀ» °Ç³Ê¶Ý´Ï´Ù.
+2025-05-17 13:00:55,255 - INFO - 127.0.0.1 - - [17/May/2025 13:00:55] "POST /recommend HTTP/1.1" 200 -
+2025-05-17 13:01:00,553 - WARNING - 'training_data.csv'¿¡ 'score' ÄÃ·³ÀÌ ¾ø¾î AI ¸ðµ¨ ÈÆ·ÃÀ» °Ç³Ê¶Ý´Ï´Ù.
+2025-05-17 13:01:00,557 - INFO - 127.0.0.1 - - [17/May/2025 13:01:00] "POST /recommend HTTP/1.1" 200 -
+2025-05-17 13:05:12,365 - INFO -  * Detected change in 'C:\\Users\\willi\\OneDrive\\¹ÙÅÁ È­¸é\\À¥¼­¹ö\\app.py', reloading
+2025-05-17 13:05:12,933 - INFO -  * Restarting with stat
+2025-05-17 13:29:37,802 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 13:29:37,816 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 13:29:37,825 - INFO -  * Restarting with stat
+2025-05-17 13:29:45,428 - WARNING -  * Debugger is active!
+2025-05-17 13:29:45,440 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 13:29:49,573 - INFO - 127.0.0.1 - - [17/May/2025 13:29:49] "GET / HTTP/1.1" 200 -
+2025-05-17 13:29:54,983 - INFO - 127.0.0.1 - - [17/May/2025 13:29:54] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 13:29:55,321 - INFO - 127.0.0.1 - - [17/May/2025 13:29:55] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 13:29:55,393 - INFO - 127.0.0.1 - - [17/May/2025 13:29:55] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 13:29:55,444 - INFO - 127.0.0.1 - - [17/May/2025 13:29:55] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=RG1VEuEIIs5pN1pWAy0h HTTP/1.1" 200 -
+2025-05-17 13:29:55,568 - INFO - 127.0.0.1 - - [17/May/2025 13:29:55] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-17 13:33:01,422 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 13:33:01,424 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 13:33:01,432 - INFO -  * Restarting with stat
+2025-05-17 13:33:07,755 - WARNING -  * Debugger is active!
+2025-05-17 13:33:07,771 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 13:33:11,597 - INFO - 127.0.0.1 - - [17/May/2025 13:33:11] "GET / HTTP/1.1" 200 -
+2025-05-17 13:33:14,569 - INFO - 127.0.0.1 - - [17/May/2025 13:33:14] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 13:33:14,956 - INFO - 127.0.0.1 - - [17/May/2025 13:33:14] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 13:33:14,961 - INFO - 127.0.0.1 - - [17/May/2025 13:33:14] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 13:33:15,062 - INFO - 127.0.0.1 - - [17/May/2025 13:33:15] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=NafEpa8QBZ4eu8XotvtE HTTP/1.1" 200 -
+2025-05-17 13:37:15,271 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 13:37:15,273 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 13:37:15,279 - INFO -  * Restarting with stat
+2025-05-17 13:37:20,992 - WARNING -  * Debugger is active!
+2025-05-17 13:37:21,010 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 13:37:45,428 - INFO - 127.0.0.1 - - [17/May/2025 13:37:45] "GET / HTTP/1.1" 200 -
+2025-05-17 13:37:48,319 - INFO - 127.0.0.1 - - [17/May/2025 13:37:48] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 13:37:48,684 - INFO - 127.0.0.1 - - [17/May/2025 13:37:48] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 13:37:48,696 - INFO - 127.0.0.1 - - [17/May/2025 13:37:48] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 13:37:48,744 - INFO - 127.0.0.1 - - [17/May/2025 13:37:48] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=japjGo9ZWmD35X1mKoNL HTTP/1.1" 200 -
+2025-05-17 13:47:44,387 - INFO -  * Detected change in 'C:\\Users\\willi\\OneDrive\\¹ÙÅÁ È­¸é\\À¥¼­¹ö\\timetable.py', reloading
+2025-05-17 13:47:44,941 - INFO -  * Restarting with stat
+2025-05-17 13:52:07,585 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 13:52:07,589 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 13:52:07,590 - INFO -  * Restarting with stat
+2025-05-17 13:52:14,039 - WARNING -  * Debugger is active!
+2025-05-17 13:52:14,051 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 13:52:18,311 - INFO - 127.0.0.1 - - [17/May/2025 13:52:18] "GET / HTTP/1.1" 200 -
+2025-05-17 13:52:23,506 - WARNING - train_model: ½ÇÁ¦ 'score' µ¥ÀÌÅÍ°¡ ¾ø¾î ÀÓÀÇÀÇ ·¹ÀÌºí·Î ÇÐ½ÀÇß½À´Ï´Ù.
+2025-05-17 13:53:00,840 - INFO - 127.0.0.1 - - [17/May/2025 13:53:00] "GET / HTTP/1.1" 200 -
+2025-05-17 13:53:10,297 - WARNING - train_model: ½ÇÁ¦ 'score' µ¥ÀÌÅÍ°¡ ¾ø¾î ÀÓÀÇÀÇ ·¹ÀÌºí·Î ÇÐ½ÀÇß½À´Ï´Ù.
+2025-05-17 14:13:53,039 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 14:13:53,043 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 14:13:53,052 - INFO -  * Restarting with stat
+2025-05-17 14:14:00,857 - WARNING -  * Debugger is active!
+2025-05-17 14:14:00,875 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 14:14:05,722 - INFO - 127.0.0.1 - - [17/May/2025 14:14:05] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 14:14:09,784 - INFO - 127.0.0.1 - - [17/May/2025 14:14:09] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 14:14:10,201 - INFO - 127.0.0.1 - - [17/May/2025 14:14:10] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 14:14:10,215 - INFO - 127.0.0.1 - - [17/May/2025 14:14:10] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 14:14:10,323 - INFO - 127.0.0.1 - - [17/May/2025 14:14:10] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=Ai1N4CRvG9swZCELsZpA HTTP/1.1" 200 -
+2025-05-17 14:14:10,445 - INFO - 127.0.0.1 - - [17/May/2025 14:14:10] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-17 14:14:13,984 - INFO - 127.0.0.1 - - [17/May/2025 14:14:13] "GET / HTTP/1.1" 200 -
+2025-05-17 14:14:16,989 - INFO - 127.0.0.1 - - [17/May/2025 14:14:16] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 14:14:17,052 - INFO - 127.0.0.1 - - [17/May/2025 14:14:17] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 14:14:17,059 - INFO - 127.0.0.1 - - [17/May/2025 14:14:17] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 14:14:17,137 - INFO - 127.0.0.1 - - [17/May/2025 14:14:17] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=Ai1N4CRvG9swZCELsZpA HTTP/1.1[0m" 304 -
+2025-05-17 14:19:59,020 - INFO -  * Detected change in 'C:\\Users\\willi\\OneDrive\\¹ÙÅÁ È­¸é\\À¥¼­¹ö\\timetable.py', reloading
+2025-05-17 14:20:00,294 - INFO -  * Restarting with stat
+2025-05-17 14:20:17,119 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 14:20:17,119 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 14:20:17,133 - INFO -  * Restarting with stat
+2025-05-17 14:20:24,259 - WARNING -  * Debugger is active!
+2025-05-17 14:20:24,276 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 14:20:28,706 - INFO - 127.0.0.1 - - [17/May/2025 14:20:28] "GET / HTTP/1.1" 200 -
+2025-05-17 14:20:32,115 - INFO - 127.0.0.1 - - [17/May/2025 14:20:32] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 14:20:32,546 - INFO - 127.0.0.1 - - [17/May/2025 14:20:32] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 14:20:32,553 - INFO - 127.0.0.1 - - [17/May/2025 14:20:32] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 14:20:32,606 - INFO - 127.0.0.1 - - [17/May/2025 14:20:32] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=4MSQSKUDdLzdcRUamAbc HTTP/1.1" 200 -
+2025-05-17 14:22:52,258 - INFO -  * Detected change in 'C:\\Users\\willi\\OneDrive\\¹ÙÅÁ È­¸é\\À¥¼­¹ö\\timetable.py', reloading
+2025-05-17 14:22:52,857 - INFO -  * Restarting with stat
+2025-05-17 14:23:01,781 - WARNING -  * Debugger is active!
+2025-05-17 14:23:01,793 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 14:24:03,782 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 14:24:03,786 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 14:24:03,794 - INFO -  * Restarting with stat
+2025-05-17 14:24:11,241 - WARNING -  * Debugger is active!
+2025-05-17 14:24:11,254 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 14:24:15,323 - INFO - 127.0.0.1 - - [17/May/2025 14:24:15] "GET / HTTP/1.1" 200 -
+2025-05-17 14:24:17,195 - INFO - 127.0.0.1 - - [17/May/2025 14:24:17] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 14:24:17,585 - INFO - 127.0.0.1 - - [17/May/2025 14:24:17] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 14:24:17,595 - INFO - 127.0.0.1 - - [17/May/2025 14:24:17] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 14:24:17,657 - INFO - 127.0.0.1 - - [17/May/2025 14:24:17] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=2dDR2Y8jg5LmFlyGSq7P HTTP/1.1" 200 -
+2025-05-17 14:28:51,820 - INFO -  * Detected change in 'C:\\Users\\willi\\OneDrive\\¹ÙÅÁ È­¸é\\À¥¼­¹ö\\timetable.py', reloading
+2025-05-17 14:28:52,511 - INFO -  * Restarting with stat
+2025-05-17 14:29:03,921 - WARNING -  * Debugger is active!
+2025-05-17 14:29:03,938 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 14:37:15,231 - INFO -  * Detected change in 'C:\\Users\\willi\\OneDrive\\¹ÙÅÁ È­¸é\\À¥¼­¹ö\\timetable.py', reloading
+2025-05-17 14:37:15,906 - INFO -  * Restarting with stat
+2025-05-17 14:38:14,414 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 14:38:14,415 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 14:38:14,462 - INFO -  * Restarting with stat
+2025-05-17 14:38:21,156 - WARNING -  * Debugger is active!
+2025-05-17 14:38:21,167 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 14:38:25,429 - INFO - 127.0.0.1 - - [17/May/2025 14:38:25] "GET / HTTP/1.1" 200 -
+2025-05-17 14:38:29,525 - INFO - 127.0.0.1 - - [17/May/2025 14:38:29] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 14:38:29,872 - INFO - 127.0.0.1 - - [17/May/2025 14:38:29] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 14:38:29,940 - INFO - 127.0.0.1 - - [17/May/2025 14:38:29] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 14:38:30,028 - INFO - 127.0.0.1 - - [17/May/2025 14:38:30] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=NwrI4Hd24krnpgUR8C4N HTTP/1.1" 200 -
+2025-05-17 14:43:43,882 - INFO -  * Detected change in 'C:\\Users\\willi\\OneDrive\\¹ÙÅÁ È­¸é\\À¥¼­¹ö\\timetable.py', reloading
+2025-05-17 14:43:44,773 - INFO -  * Restarting with stat
+2025-05-17 14:43:58,661 - WARNING -  * Debugger is active!
+2025-05-17 14:43:58,683 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 14:45:05,497 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 14:45:05,500 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 14:45:05,500 - INFO -  * Restarting with stat
+2025-05-17 14:45:11,794 - WARNING -  * Debugger is active!
+2025-05-17 14:45:11,803 - INFO -  * Debugger PIN: 151-376-331
+2025-05-17 14:45:16,532 - INFO - 127.0.0.1 - - [17/May/2025 14:45:16] "GET / HTTP/1.1" 200 -
+2025-05-17 14:45:23,535 - INFO - 127.0.0.1 - - [17/May/2025 14:45:23] "[35m[1mPOST /recommend HTTP/1.1[0m" 500 -
+2025-05-17 14:45:23,947 - INFO - 127.0.0.1 - - [17/May/2025 14:45:23] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 14:45:23,953 - INFO - 127.0.0.1 - - [17/May/2025 14:45:23] "[36mGET /recommend?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 14:45:24,003 - INFO - 127.0.0.1 - - [17/May/2025 14:45:24] "GET /recommend?__debugger__=yes&cmd=resource&f=console.png&s=IwfNiebRmuizdo6WBVIG HTTP/1.1" 200 -

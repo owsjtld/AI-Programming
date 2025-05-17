@@ -1,0 +1,366 @@
+[
+  {
+    "code": "13119002",
+    "name": "인공지능개론",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 2,
+        "start_time": "13:00",
+        "end_time": "14:00"
+      },
+      {
+        "day": 3,
+        "start_time": "13:00",
+        "end_time": "14:00"
+      },
+      {
+        "day": 3,
+        "start_time": "14:00",
+        "end_time": "15:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "13971001",
+    "name": "시스템보안",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 2,
+        "start_time": "16:00",
+        "end_time": "17:00"
+      },
+      {
+        "day": 2,
+        "start_time": "17:00",
+        "end_time": "18:00"
+      },
+      {
+        "day": 3,
+        "start_time": "16:00",
+        "end_time": "17:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "13974002",
+    "name": "종합프로젝트 (캡스톤디자인)",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 1,
+        "start_time": "15:00",
+        "end_time": "16:00"
+      },
+      {
+        "day": 1,
+        "start_time": "16:00",
+        "end_time": "17:00"
+      },
+      {
+        "day": 1,
+        "start_time": "17:00",
+        "end_time": "18:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "14207002",
+    "name": "웹프로그래밍",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 0,
+        "start_time": "12:00",
+        "end_time": "13:00"
+      },
+      {
+        "day": 4,
+        "start_time": "12:00",
+        "end_time": "13:00"
+      },
+      {
+        "day": 4,
+        "start_time": "13:00",
+        "end_time": "14:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "14230002",
+    "name": "자료구조",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 0,
+        "start_time": "11:00",
+        "end_time": "12:00"
+      },
+      {
+        "day": 1,
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "day": 1,
+        "start_time": "10:00",
+        "end_time": "11:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "14394001",
+    "name": "현대암호학",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 0,
+        "start_time": "15:00",
+        "end_time": "16:00"
+      },
+      {
+        "day": 0,
+        "start_time": "16:00",
+        "end_time": "17:00"
+      },
+      {
+        "day": 1,
+        "start_time": "14:00",
+        "end_time": "15:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "14395001",
+    "name": "인공지능프로그래밍",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 2,
+        "start_time": "14:00",
+        "end_time": "15:00"
+      },
+      {
+        "day": 2,
+        "start_time": "15:00",
+        "end_time": "16:00"
+      },
+      {
+        "day": 3,
+        "start_time": "15:00",
+        "end_time": "16:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "14397001",
+    "name": "네트워크보안",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 1,
+        "start_time": "11:00",
+        "end_time": "12:00"
+      },
+      {
+        "day": 2,
+        "start_time": "10:00",
+        "end_time": "11:00"
+      },
+      {
+        "day": 2,
+        "start_time": "11:00",
+        "end_time": "12:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "14399001",
+    "name": "제어시스템보안",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 4,
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "day": 4,
+        "start_time": "10:00",
+        "end_time": "11:00"
+      },
+      {
+        "day": 4,
+        "start_time": "11:00",
+        "end_time": "12:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "14400001",
+    "name": "정보보호정책",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 4,
+        "start_time": "14:00",
+        "end_time": "15:00"
+      },
+      {
+        "day": 4,
+        "start_time": "15:00",
+        "end_time": "16:00"
+      },
+      {
+        "day": 4,
+        "start_time": "16:00",
+        "end_time": "17:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "3671002",
+    "name": "소프트웨어공학",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 0,
+        "start_time": "09:00",
+        "end_time": "10:00"
+      },
+      {
+        "day": 0,
+        "start_time": "10:00",
+        "end_time": "11:00"
+      },
+      {
+        "day": 2,
+        "start_time": "09:00",
+        "end_time": "10:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "8095002",
+    "name": "알고리즘",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 0,
+        "start_time": "13:00",
+        "end_time": "14:00"
+      },
+      {
+        "day": 0,
+        "start_time": "14:00",
+        "end_time": "15:00"
+      },
+      {
+        "day": 1,
+        "start_time": "13:00",
+        "end_time": "14:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "14401001",
+    "name": "정보보호컨설팅",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+      {
+        "day": 0,
+        "start_time": "11:00",
+        "end_time": "12:00"
+      },
+      {
+        "day": 4,
+        "start_time": "10:00",
+        "end_time": "11:00"
+      },
+      {
+        "day": 4,
+        "start_time": "11:00",
+        "end_time": "12:00"
+      }
+    ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  },
+  {
+    "code": "14398001",
+    "name": "고급인공지능",
+    "professor": "정보없음",
+    "credits": 3,
+    "time_slots": [
+    {
+      "day": 1,
+      "start_time": "14:00",
+      "end_time": "15:00"
+    },
+    {
+      "day": 1,
+      "start_time": "15:00",
+      "end_time": "16:00"
+    },
+    {
+      "day": 1,
+      "start_time": "16:00",
+      "end_time": "17:00"
+    }
+  ],
+    "classroom": "정보없음",
+    "capacity": 60,
+    "current_enrolled": 0
+  }
+]
