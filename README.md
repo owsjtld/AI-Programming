@@ -102,22 +102,22 @@
 ### 📁 코드 구조
 
 프로젝트의 주요 파일 및 디렉토리 구조는 다음과 같습니다:
-
-├── main.py
-├── timetable.json
-├── templates/
-│   ├── error.html
-│   ├── insert.html
-│   ├── result.html
-│   └── selected_schedule.html
-├── models/
-│   ├── init.py
-│   ├── course.py
-│   └── user_preferences.py
-└── recommender/
-├── init.py
-├── base_recommender.py
-└── sarsa_recommender.py
+.
+- main.py
+- timetable.json
+- templates/
+    - error.html
+    - insert.html
+    - result.html
+    - selected_schedule.html
+- models/
+    - init.py
+    - course.py
+    - user_preferences.py
+- recommender/
+    - init.py
+    - base_recommender.py
+    - sarsa_recommender.py
 
 * **`main.py`**: Flask 웹 애플리케이션의 메인 엔트리 포인트입니다. 사용자 요청 처리, 추천 시스템 연동, HTML 템플릿 렌더링을 담당합니다.
 * **`timetable.json`**: 모든 과목 정보가 저장된 JSON 형식의 데이터 파일입니다.
