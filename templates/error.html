@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오류 발생</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #343a40;
+            text-align: center;
+        }
+        .error-container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            color: #dc3545;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .error-message {
+            background-color: #ffebe8;
+            border: 1px solid #ffc2b3;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            white-space: pre-wrap; /* 줄바꿈 유지 */
+            text-align: left;
+            color: #cc0000;
+            overflow-x: auto;
+        }
+        a {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <h1>오류가 발생했습니다!</h1>
+        <p>죄송합니다. 요청을 처리하는 중 문제가 발생했습니다.</p>
+        
+        {% if message %}
+            <div class="error-message">
+                <strong>오류 내용:</strong><br>
+                {{ message }}
+            </div>
+        {% endif %}
+        
+        <p>잠시 후 다시 시도하시거나, 입력 값을 확인해 주세요.</p>
+        <a href="/">돌아가기</a>
+    </div>
+</body>
+</html>

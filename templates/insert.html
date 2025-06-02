@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나만의 시간표 추천받기</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+        input[type="number"],
+        input[type="text"],
+        select {
+            width: calc(100% - 20px);
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 1em;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        input[type="number"]:focus,
+        input[type="text"]:focus,
+        select:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        .checkbox-group label,
+        .radio-group label {
+            display: inline-block;
+            margin-right: 15px;
+            font-weight: normal;
+        }
+        .checkbox-group input[type="checkbox"],
+        .radio-group input[type="radio"] {
+            margin-right: 5px;
+            width: auto;
+            vertical-align: middle;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .info-text {
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 5px;
+        }
+        .error-message {
+            color: #dc3545;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>나만의 시간표 추천받기</h1>
+        
+        {% if error_message %}
+            <div class="error-message">
+                {{ error_message }}
+            </div>
+        {% endif %}
+
+        <form action="/recommend" method="post">
+            <div class="form-group">
+                <label for="min_credits">최소 학점:</label>
+                <input type="number" id="min_credits" name="min_credits" value="12" required>
+            </div>
+
+            <div class="form-group">
+                <label for="max_credits">최대 학점:</label>
+                <input type="number" id="max_credits" name="max_credits" value="18" required>
+            </div>
+
+            <div class="form-group">
+                <label>선호 요일:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="preferred_days" value="0"> 월</label>
+                    <label><input type="checkbox" name="preferred_days" value="1"> 화</label>
+                    <label><input type="checkbox" name="preferred_days" value="2"> 수</label>
+                    <label><input type="checkbox" name="preferred_days" value="3"> 목</label>
+                    <label><input type="checkbox" name="preferred_days" value="4"> 금</label>
+                </div>
+                <div class="info-text">수업을 가급적 듣고 싶은 요일을 선택하세요.</div>
+            </div>
+
+            <div class="form-group">
+                <label>제외 요일:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="excluded_days" value="0"> 월</label>
+                    <label><input type="checkbox" name="excluded_days" value="1"> 화</label>
+                    <label><input type="checkbox" name="excluded_days" value="2"> 수</label>
+                    <label><input type="checkbox" name="excluded_days" value="3"> 목</label>
+                    <label><input type="checkbox" name="excluded_days" value="4"> 금</label>
+                </div>
+                <div class="info-text">절대 수업을 듣고 싶지 않은 요일을 선택하세요.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="excluded_courses">제외 과목 코드 (쉼표로 구분):</label>
+                <input type="text" id="excluded_courses" name="excluded_courses" placeholder="예: 10010001, 14230002">
+                <div class="info-text">수강하고 싶지 않은 과목의 코드를 입력하세요.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="preferred_rating">최소 선호 평점 (0.0 - 5.0):</label>
+                <input type="number" id="preferred_rating" name="preferred_rating" step="0.1" min="0.0" max="5.0" value="3.5" required>
+                <div class="info-text">과목의 평균 평점이 이 값 이상인 과목을 선호합니다.</div>
+            </div>
+
+            <div class="form-group">
+                <label>수업 시간 간격(공강) 최소화 선호도:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gap_preference_level" value="none"> 신경 안 씀</label>
+                    <label><input type="radio" name="gap_preference_level" value="low"> 약간 최소화</label>
+                    <label><input type="radio" name="gap_preference_level" value="medium" checked> 보통 최소화</label>
+                    <label><input type="radio" name="gap_preference_level" value="high"> 최대한 최소화</label>
+                </div>
+                <div class="info-text">수업과 수업 사이의 빈 시간을 최소화하는 정도를 선택하세요.</div>
+            </div>
+
+            <div class="form-group">
+                <label for="preferred_grade">선호 학년:</label>
+                <select id="preferred_grade" name="preferred_grade">
+                    <option value="0">상관 없음</option>
+                    <option value="1">1학년</option>
+                    <option value="2">2학년</option>
+                    <option value="3">3학년</option>
+                    <option value="4">4학년</option>
+                </select>
+                <div class="info-text">추천받고 싶은 과목의 학년을 선택하세요.</div>
+            </div>
+            <button type="submit">시간표 추천받기</button>
+        </form>
+    </div>
+</body>
+</html>
