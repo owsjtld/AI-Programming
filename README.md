@@ -31,7 +31,7 @@
 
 1.  **리포지토리 클론**:
     ```bash
-    git clone [Your Repository URL]
+    git clone https://github.com/owsjtld/AI-Programming.git
     cd [Your Repository Name]
     ```
 
