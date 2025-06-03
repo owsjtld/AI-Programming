@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>선택된 시간표 상세</title>
     <style>
-        /* result.html의 스타일을 그대로 가져옴 */
+        /* result.html의 스타일을 그대로 가져옴 - 여기에 px 값만 비율 계산하여 높임 */
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
@@ -13,7 +13,7 @@
             color: #333;
         }
         .container { /* 선택된 시간표는 컨테이너 필요 없음 (body 자체를 활용) */
-            max-width: 1500px;
+            max-width: 1500px; /* 이 값은 body margin auto에 영향을 줄 수 있으므로 필요 시 조정 */
             margin: auto;
             background: #fff;
             padding: 20px;
@@ -30,7 +30,7 @@
         .course-list {
             list-style-type: none;
             padding: 0;
-            max-width: 900px; /* 테이블과 너비 맞춤 */
+            width: 860px; /* 변경: result.html의 timetable 너비(480px)에 비례하여 860px로 고정 */
             margin: 20px auto; /* 가운데 정렬 */
         }
         .course-list li {
@@ -39,30 +39,40 @@
             padding: 10px;
             border-radius: 4px;
             display: flex;
-            flex-direction: column; /* 세로 정렬로 변경 */
+            flex-direction: column; /* 세로 정렬로 변경하여 공간 확보 */
             align-items: flex-start; /* 왼쪽 정렬 */
+            word-break: break-word; /* 긴 단어 끊어서 줄바꿈 */
+            overflow-wrap: break-word; /* 긴 URL 끊어서 줄바꿈 */
         }
         .course-header {
             display: flex;
             justify-content: space-between;
             width: 100%;
             margin-bottom: 5px;
+            flex-wrap: wrap; /* 내용이 많으면 줄바꿈 */
         }
         .course-name {
             font-weight: bold;
             font-size: 1.1em;
             color: #333;
+            word-break: break-word;
+            overflow-wrap: break-word;
+            flex-basis: 70%; /* 이름이 더 많은 공간 차지 */
         }
         .course-grade {
             font-weight: bold;
             color: #007bff;
             font-size: 0.95em;
+            flex-basis: 25%; /* 학년은 적은 공간 차지 */
+            text-align: right;
         }
         .course-details {
             font-size: 0.9em;
             color: #666;
             width: 100%; /* 너비 100%로 설정 */
             text-align: left; /* 왼쪽 정렬 */
+            word-break: break-word; /* 긴 내용 줄바꿈 */
+            overflow-wrap: break-word;
         }
         .button-group {
             text-align: center;
@@ -82,19 +92,20 @@
         }
         /* 시간표 테이블 관련 스타일 */
         .timetable {
-            width: 80%; /* 선택된 시간표 페이지에서 테이블 너비 */
-            max-width: 900px; /* 너무 커지지 않도록 최대 너비 설정 */
+            width: 860px; /* 변경: result.html의 timetable 너비(480px)에 비례하여 860px로 고정 */
             margin: 15px auto; /* 가운데 정렬 */
             border-collapse: collapse;
             font-size: 0.9em;
-            table-layout: fixed;
+            table-layout: fixed; /* 테이블 셀 너비 고정 */
         }
         .timetable th, .timetable td {
             border: 1px solid #ccc;
             padding: 4px;
             text-align: center;
             vertical-align: middle;
-            height: 60px;
+            height: 110px; /* 변경: result.html의 60px에서 비율 계산하여 높임 */
+            word-break: break-word; /* 셀 안의 긴 내용 줄바꿈 */
+            overflow-wrap: break-word;
         }
         .timetable th {
             background-color: #e0e0e0;
@@ -102,13 +113,13 @@
         }
         /* 시간 열 너비 조정 */
         .timetable th:first-child {
-            width: 70px;
-            min-width: 70px;
+            width: 125px; /* 변경: result.html의 70px에서 비율 계산하여 높임 */
+            min-width: 125px;
         }
         /* 요일 열 너비 조정 (전체 너비에서 시간 열 빼고 균등 분배) */
         .timetable th:not(:first-child),
         .timetable td:not(:first-child) {
-            width: calc((100% - 70px) / 5);
+            width: 147px; /* 변경: result.html의 calc((100% - 70px) / 5)에서 비율 계산하여 높임 */
         }
 
         .class-block {
@@ -122,20 +133,22 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            min-height: 50px;
+            min-height: 100px; /* 셀 높이에 맞춰 조정 */
             height: 100%; /* 부모 td의 높이를 꽉 채우도록 설정 */
             line-height: 1.2;
             box-sizing: border-box;
+            word-break: break-word; /* 강의명 줄바꿈 */
+            overflow-wrap: break-word;
         }
         .class-block span {
             display: block;
-            font-size: 0.68em;
-            word-break: keep-all;
+            font-size: 0.85em; /* 변경: result.html의 0.68em에서 비율 계산하여 높임 */
+            word-break: keep-all; /* 단어가 잘리지 않도록 */
             overflow-wrap: break-word;
             white-space: normal;
         }
         .time-slot {
-            font-size: 0.8em;
+            font-size: 0.95em; /* 변경: result.html의 0.8em에서 비율 계산하여 높임 */
             color: #555;
         }
 

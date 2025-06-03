@@ -193,18 +193,6 @@ class BaseRecommender:
             </tbody>
         </table>
         """
-        
-        total_credits = self.calculate_total_credits(schedule_courses)
-        total_courses_count = len(schedule_courses) # 변수명 변경 (total_courses와의 충돌 방지)
-
-        html_content += '<p><strong>포함된 과목:</strong></p>'
-        html_content += '<ul class="course-list">'
-        for course in schedule_courses:
-            html_content += f'<li><span class="course-name">{course.name} ({course.code})</span> <span class="course-details">{course.credits}학점 / {course.professor} / {course.location}</span></li>'
-        html_content += '</ul>'
-        
-        html_content += f'<p>총 학점: {total_credits} / 총 과목 수: {total_courses_count}</p>'
-
         return html_content
 
     def recommend_schedule(self, user_prefs):
