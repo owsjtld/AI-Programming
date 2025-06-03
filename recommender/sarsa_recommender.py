@@ -115,7 +115,7 @@ class SarsaRecommender(BaseRecommender):
                 for time_slot in course.times:
                     schedule_days.add(time_slot.day)
             
-            num_preferred_days_in_schedule = len(user_prefs.preferred_days.intersection(schedule_days))
+            num_preferred_days_in_schedule = len(set(user_prefs.preferred_days).intersection(schedule_days))
             reward += num_preferred_days_in_schedule * 3.0 
 
         if is_terminal:
