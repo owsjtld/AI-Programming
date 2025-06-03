@@ -32,7 +32,7 @@
 1.  **리포지토리 클론**:
     ```bash
     git clone https://github.com/owsjtld/AI-Programming.git
-    cd [Your Repository Name]
+    cd AI-Programming
     ```
 
 2.  **가상 환경 설정 (권장)**:
