@@ -127,7 +127,7 @@ def view_schedule(schedule_courses_str):
         schedule_html = recommender.generate_timetable_html(selected_courses, title="선택된 시간표")
         
         return render_template('selected_schedule.html', 
-                               schedule_html=schedule_html,
+                               single_schedule_html=schedule_html,
                                detailed_courses=detailed_courses_info) # 상세 과목 정보 전달
 
     except Exception as e:
